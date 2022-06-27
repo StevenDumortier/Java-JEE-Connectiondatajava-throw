@@ -1,0 +1,28 @@
+package exoJava;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+import java.util.*;
+
+public class exo7 {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+	}
+	Scanner input=new Scanner(System.in);
+	ArrayList <Integer> nombre = new ArrayList<Integer>();
+	String nbLettre ="jambon";
+	while(true) {
+		System.out.print("Ecrire un nombre, tapez q pour arréter : ");
+		nbLettre = input.nextLine();
+		if (nb.equals("q")) {
+			break;
+		}
+		
+		nombre.add(input.nextInt());
+		
+	}
+	
+
+}
